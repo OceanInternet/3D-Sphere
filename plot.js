@@ -1,15 +1,29 @@
 var radius = 400,
     rows   = 16,
     cols   = rows / 2,
-    top    = 0,
-    col    = 0;
+    col,
+    row;
 
-for(bottom=1;bottom<=rows;bottom++) {
+for(col=0;bottom<=rows;bottom++) {
 
-    var yAngle = 180 * bottom / rows;
-
-    x = radius * cos(a)
-    y = radius * sin(a)
+    var rRow   = radius,
+        rCol   = rRow * sin(yAngle),
+        yAngle = 180 * row / rows,
+        x      = radius + (rRow * cos(yAngle));
     
-    top = bottom;
+    for(row=0;right<=cols;right++) {
+        
+        var xAngle = 180 * col / cols;
+            y      = radius + (rCol * cos(xAngle));
+            
+            $("body").append(
+            $('<div></div>')
+                .css('position',         'absolute')
+                .css('top',              x + 'px')
+                .css('left',             y + 'px')
+                .css('width',            1)
+                .css('height',           1)
+                .css('background-color', '#000')
+        );
+    }
 }
