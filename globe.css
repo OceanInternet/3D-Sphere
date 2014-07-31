@@ -1,0 +1,13 @@
+body {
+    background-color: #000;
+}
+.globe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -410px;
+    margin-left: -410px;
+    width: 820px;
+    height: 820px;
+    background-color: #000;
+}

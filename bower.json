@@ -1,0 +1,28 @@
+{
+  "name": "3D Sphere",
+  "version": "0.0.1",
+  "homepage": "https://github.com/OceanInternet/3D-Sphere",
+  "authors": [
+    "Andy Weir <andy@ocean-internet.co.uk>"
+  ],
+  "description": "3D Sphere Plotter",
+  "main": "index.html",
+  "keywords": [
+    "css",
+    "3D",
+    "sphere",
+    "js"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1"
+  }
+}
